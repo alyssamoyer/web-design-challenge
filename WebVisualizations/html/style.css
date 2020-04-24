@@ -1,8 +1,10 @@
 .box {
-    height: 600px;
+    height: 500px;
     padding: 20px;
     color: #fff;
     background: LightBlue;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
   }
   body {
     background-color: GhostWhite;
@@ -20,3 +22,14 @@
     max-width: 25%;
     padding: 0 4px;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+  }
+
