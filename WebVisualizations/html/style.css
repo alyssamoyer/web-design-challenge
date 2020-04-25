@@ -44,6 +44,12 @@
     padding-bottom: 5px;
     font-size: 3vw;
     }
+
+  /* add a image padding relative to screen */
+     img {
+      padding-bottom: 10%;
+    } 
+
 /* resize the homepage image in right box */
   img.resize {
       height: 40%;
@@ -62,10 +68,11 @@
     background-color: lightsalmon;
   }
 
-  /* salmon border around image when user hovers */
+  /* salmon border around image when user hovers. Also sets image padding to zero upon hover */
   .highlight img:hover {
     border-style: solid;
     border-color: lightsalmon;
+    padding-bottom: 0%;
 }
 
 /* media query to autoexpand menu, block toggler icon, and color the dropdown menu */
