@@ -1,5 +1,5 @@
+/* boxing color and margins */
 .box {
-    /* height: 500px; */
     padding: 20px;
     color: #fff;
     background: LightBlue;
@@ -16,7 +16,7 @@
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+
   .column {
     flex: 25%;
     max-width: 25%;
@@ -32,6 +32,8 @@
     color: white;
     text-align: center;
   }
+
+  /* h1 and h3 sized relative to screen */
   h3 {
   text-align: center;
   padding-bottom: 5px;
@@ -42,8 +44,45 @@
     padding-bottom: 5px;
     font-size: 3vw;
     }
-
-    img.resize {
+/* resize the homepage image in right box */
+  img.resize {
       height: 40%;
       width: 40%;
     }
+
+  /* highlight links when user hovers */
+  .nav-link:hover{
+    background-color: lightsalmon;
+  }
+
+  .navbar-brand:hover{
+    background-color: lightsalmon;
+  }
+  .dropdown-menu a:hover{
+    background-color: lightsalmon;
+  }
+
+  /* salmon border around image when user hovers */
+  .highlight img:hover {
+    border-style: solid;
+    border-color: lightsalmon;
+}
+
+/* media query to autoexpand menu, block toggler icon, and color the dropdown menu */
+@media screen and (max-width:768px) and (min-width:440px) {
+  .navbar-collapse.collapse {
+    display: block!important;
+    border: none;
+    margin-right: 15px;
+  }
+ 
+  .navbar-toggler {
+    display: none
+  } 
+  .dropdown-menu {
+    background-color: lightblue
+  }
+
+
+
+}
