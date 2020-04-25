@@ -1,5 +1,5 @@
 .box {
-    height: 500px;
+    /* height: 500px; */
     padding: 20px;
     color: #fff;
     background: LightBlue;
@@ -31,5 +31,9 @@
     background-color: darkgrey;
     color: white;
     text-align: center;
+  }
+  h3 {
+  text-align: center;
+  padding-bottom: 5px;
   }
 
