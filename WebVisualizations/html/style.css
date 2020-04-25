@@ -35,5 +35,15 @@
   h3 {
   text-align: center;
   padding-bottom: 5px;
+  font-size: 2vw;
   }
 
+  h1 {
+    padding-bottom: 5px;
+    font-size: 3vw;
+    }
+
+    img.resize {
+      height: 40%;
+      width: 40%;
+    }
